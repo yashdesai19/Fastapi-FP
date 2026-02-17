@@ -1,0 +1,14 @@
+# def parrot(voltage, state='a stiff', action='voom'):
+#     print("-- This parrot wouldn't", action, end=' ')
+#     print("if you put", voltage, "volts through it.", end=' ')
+#     print("E's", state, "!")
+
+# d = {"voltage": "four million", "state": "bleedin' demised", "action": "VOOM"}
+# parrot(**d)
+
+def add(a, b):
+    print(a + b)
+
+nums = [5, 10]
+
+add(*nums)
